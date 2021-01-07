@@ -1,0 +1,19 @@
+{
+  "name": "developer/test",
+  "authors": [
+    {
+      "name": "fulviocanducci",
+      "email": "fulviocanducci@hotmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "": [
+        "DAO/",
+        "DTO",
+        "Connection/"
+      ]
+    }
+  }
+}
